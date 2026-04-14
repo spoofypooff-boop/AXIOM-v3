@@ -12,7 +12,7 @@ export interface UserProfile {
   display_name: string
   role: 'user' | 'admin'
   color: string
-  strategy_id: string
+  strategy_id: string | null
   strategy_config: Record<string, unknown>
   created_at: string
   updated_at: string
