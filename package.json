@@ -1,6 +1,7 @@
 {
   "name": "axiom-v3",
   "private": true,
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "dev": "pnpm --filter web dev",
     "build": "pnpm --filter shared build && pnpm --filter web build",
